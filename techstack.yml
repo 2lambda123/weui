@@ -1,0 +1,250 @@
+repo_name: 2lambda123/weui
+report_id: 0bdcca72c99f85f4fbbb30a65b38543e
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:47+00:00'
+requested_by: uxsi
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/weui
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Zoom Zhao
+  last_updated_on: 2016-01-23 17:16:51.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/weui
+  detection_source: Repo Metadata
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: bearyan
+  last_updated_on: 2020-01-27 07:26:23.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: progrape
+  last_updated_on: 2015-10-12 08:21:15.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: jfengjiang
+  last_updated_on: 2015-09-25 09:31:12.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.26.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: progrape
+  last_updated_on: 2015-12-04 11:47:13.000000000 Z
+- name: gulp-cssnano
+  description: Minify CSS with cssnano
+  package_url: https://www.npmjs.com/gulp-cssnano
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16774/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-header
+  description: Gulp extension to add header to file
+  package_url: https://www.npmjs.com/gulp-header
+  version: 1.8.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16259/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-less
+  description: Less for Gulp
+  package_url: https://www.npmjs.com/gulp-less
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16267/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-postcss
+  description: PostCSS gulp plugin
+  package_url: https://www.npmjs.com/gulp-postcss
+  version: 6.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16282/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 2.6.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: gulp-tap
+  description: Easiest way to tap into a pipeline
+  package_url: https://www.npmjs.com/gulp-tap
+  version: 0.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17412/default_11ae83a8e74ae9812850843051a0501a3bb5313f.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: xushengni
+  last_updated_on: 2021-09-17 09:33:30.000000000 Z
+- name: stylelint-config-standard
+  description: Standard shareable config for stylelint
+  package_url: https://www.npmjs.com/stylelint-config-standard
+  version: 19.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: bearyan
+  last_updated_on: 2020-02-15 03:56:06.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 6.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/weui/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: progrape
+  last_updated_on: 2015-12-04 11:47:13.000000000 Z
